@@ -1,4 +1,4 @@
-# NBT
+# NBT Reader for PHP
 The Named Binary Tag file format is used by Minecraft to store data.
 <br>This class allows for simple reading of these files into an associative array.
 
