@@ -7,8 +7,6 @@
  * @link https://github.com/jxxe/nbt
  */
 
-// NBT Spec: https://web.archive.org/web/20100310144708/http://www.minecraft.net/docs/NBT.txt
-
 PHP_INT_SIZE === 8 or trigger_error('This class only runs on 64-bit systems.', E_USER_ERROR);
 
 class NBT {
