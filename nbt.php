@@ -1,11 +1,10 @@
 <?php
 
 /**
- * Class for reading in NBT-format files.
+ * A class for reading NBT files.
  * 
  * @author  Jerome Paulos <contact@jeromepaulos.com>
  * @link https://github.com/jxxe/nbt
- * @version 1.0
  */
 
 // NBT Spec: https://web.archive.org/web/20100310144708/http://www.minecraft.net/docs/NBT.txt
