@@ -119,7 +119,9 @@ class NBT {
 
             case self::TAG_STRING:
                 $stringLength = $this->readTag(self::TAG_SHORT); // Get length of string
-                return $stringLength ? fread($this->file, $stringLength) : ''; // If the string has any length, read it
+                return $stringLength > 0 ? fread($this->file, $stringLength) : ''; // If the string has any length, read it
+
+
 
             case self::TAG_LIST:
                 $listTagType = $this->readTag(self::TAG_BYTE);
