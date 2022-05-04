@@ -3,7 +3,6 @@
 /**
  * A class for reading NBT files.
  * 
- * @author  Jerome Paulos <contact@jeromepaulos.com>
  * @link https://github.com/jxxe/nbt
  */
 
